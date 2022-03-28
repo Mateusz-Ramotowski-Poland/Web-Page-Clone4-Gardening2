@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+/* CSS RESET ABOVE */
+/* *{
+	padding-left: 0;
+	padding-right: 0;
+} */
+.navbar-buttons, .navbar-buttons:hover, #navbar-button1:active, #navbar-button2:active, #navbar-button1:focus, #navbar-button2:focus {
+	background-color: #f8f9fa;
+	color:rgba(0,0,0,.5);
+	border:none;
+	box-shadow: none;
+}
+.logo-image{
+	padding-left: 15px;
+}
+#header{
+	margin-bottom: 140px;
+	padding: 0 ;
+}
+#nav{
+	padding: 0 ;
+}
+.my-images-background{
+	background-image: url("images/BOTOWO-025.jpg");
+	background-size:cover;
+	width: 100%;
+}
+.my-images-main-article-div{
+	width: 100%;
+}
+.main-article-section2 .my-images-main-article-div{
+	max-width: 550px;
+}
+.main-article-section1{
+	margin-bottom: 80px;
+}
+.main-article-section1-div{
+	text-align: center;
+	padding: 0;
+}
+.main-article-section1-div-img{
+	margin: 50px 0 50px;
+}
+.main-article-section1-div-h1{
+	color: white;
+	text-align: center;
+	font-size: 3.5vw;
+	margin-bottom: 50px;
+}
+.main-article-section2{
+	margin-bottom: 50px;
+}
+.main-article-section2-div2{
+	text-align: center;
+}
+.main-article-section2-div-h2{
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 50px;
+	color: #333;
+}
+.main-article-section2-div-p, .main-article-section3-div-p, .main-article-section4-div-p{
+	margin-bottom: 20px;
+	line-height: 1.7;
+	color: #666;
+}
+.main-article-section3{
+	margin-bottom: 140px;
+}
+.main-article-section4{
+	margin-bottom: 140px;
+}
+.main-article-section4-div-p:nth-of-type(1){
+	margin-bottom: 80px;
+}
+.main-article-section4-div-p:nth-of-type(2){
+	margin-bottom: 0px;
+}
+.main-article-section4 a, footer a{
+	display: block;
+	margin-bottom: 50px;
+	color:#2EA3F2;
+}
+.main-article-section4 a:hover, footer a:hover{
+	text-decoration: none;
+	color:#2EA3F2;
+}
+.main-article-section4 img{
+	margin-bottom: 70px;
+}
+.main-article-section4-div-p:nth-of-type(n+2){
+	font-weight: bold;
+}
+footer a{
+	margin-bottom: 0;
+}
+.carousel-item-my-css{
+	width: 25%;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+}
+.carousel-item-my-css:hover{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5) );
+}
+.footer-h2{
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 50px;
+	color: #333;
+	text-align: center;
+}
+.carousel-item a{
+	display: inline;
+}
+@media(max-width:992px){
+	.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+		position: static;
+	}
+	#header{
+		margin-bottom: 0;
+	}
+	.carousel-item-my-css{
+		height: 200px;
+	}
+}
+
